@@ -1,0 +1,11 @@
+# NmapTool dependencies
+#
+# This tool only relies on the Python standard library
+# (argparse, ipaddress, json, logging, os, subprocess, sys, threading,
+# time, xml.etree.ElementTree, datetime, pathlib) — no third-party
+# Python packages are required.
+#
+# External system requirement (not installable via pip):
+#   - nmap must be installed and available on PATH
+#       Debian/Kali/Ubuntu: sudo apt install nmap
+#       macOS (Homebrew):   brew install nmap
